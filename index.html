@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.cdnfonts.com/css/handelgothic-tl" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <img src="./assets/images/arrow.webp" alt="" class="header__arrow" />
+    <header class="header">
+      <div class="wrapper">
+        <h1 class="header__title">Портфолио</h1>
+        <div class="header__inner">
+          <div class="header__slider">
+    
+            <div class="main__img">
+              <img src="./assets/images/first-img.webp" alt="" id="main__pic" />
+            </div>
+            <div class="select__img">
+              <div class="slider__container">
+              <div class="select__img-items">
+                <button type="submit" class="slider__left-btn" id="left-arrow">
+                  <img class="arrow__btn" src="./assets/images/arrow__left-btn.webp" alt="" />
+                </button>
+                <img src="./assets/images/first-img.webp" alt="" class="slide" />
+                <div class="select__img-item">
+                  <img src="./assets/images/second-img.webp" alt="" class="slide" />
+                </div>
+                <div class="select__img-item">
+                  <img src="./assets/images/thirt-img.webp" alt="" class="slide" />
+                </div>
+                <div class="select__img-item">
+                  <img src="./assets/images/fourth-img.webp" alt="" class="slide" />
+                </div>
+                <button type="submit" class="slider__right-btn" id="right-arrow">
+                  <img class="arrow__btn" src="./assets/images/arrow__right-btn.webp" alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="header__info">
+            <h2 class="header__info-name">Василий Викторович ленточкин</h2>
+            <p class="header__info-subtitle">Директор по развитию</p>
+            <p class="header__info-Description">
+              Тут что- то написано про меня (пока у меня нет структуры в голове)
+            </p>
+            <p class="header__info-Description">Регалии, достижения, компетенции</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="main__info">
+        <div class="main-wrapper">
+          <div class="main__inner">
+            <div class="main__items">
+              <div class="main__item">
+                <p class="main__item-title">Мой путь</p>
+                <ol class="main__Description">
+                  <li>У клиента было рабочее кассовое место с учетной системой Artix.</li>
+                  <li>
+                    Складской учет не был синхронизирован с системой и велся в ручном режиме на
+                    бумаге.
+                  </li>
+                  <li>
+                    Установленное оборудование устарело, требовало проверки и возможной замены.
+                  </li>
+                </ol>
+              </div>
+              <div class="main__item">
+                <p class="main__item-title">успешные проекты</p>
+                <ol class="main__Description">
+                  <li>У клиента было рабочее кассовое место с учетной системой Artix.</li>
+                  <li>
+                    Складской учет не был синхронизирован с системой и велся в ручном режиме на
+                    бумаге.
+                  </li>
+                  <li>
+                    Установленное оборудование устарело, требовало проверки и возможной замены.
+                  </li>
+                </ol>
+              </div>
+              <div class="main__item">
+                <p class="main__item-title" style="color: #ffbf40">Планы и амбиции</p>
+                <ol class="main__Description">
+                  <li>У клиента было рабочее кассовое место с учетной системой Artix.</li>
+                  <li>
+                    Складской учет не был синхронизирован с системой и велся в ручном режиме на
+                    бумаге.
+                  </li>
+                  <li>
+                    Установленное оборудование устарело, требовало проверки и возможной замены.
+                  </li>
+                </ol>
+              </div>
+              <p class="main__item-title">Награды</p>
+
+              <div class="main__slider">
+                <div class="main__slider-items" style="text-align: center; margin-top: 5em">
+                  <img src="./assets/images/main__first-img.webp" alt="" id="myImg" />
+                  <img src="./assets/images/main__second-img.webp" alt="" id="myImg2" />
+                  <img src="./assets/images/main__thirt-img.webp" alt="" id="myImg3" />
+                  <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01" />
+                    <div id="caption"></div>
+                  </div>
+                </div>
+                <div class="main__slider-btns">
+                  <button type="submit" class="slider__left-btn_2" id="arrow-left">
+                    <img src="./assets/images/arrow__leftmain-btn.webp" alt="" />
+                  </button>
+                  <button type="submit" class="slider__right-btn_2" id="arrow-right">
+                    <img src="./assets/images/arrow__rightmain-btn.webp" alt="" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer__items-social">
+          <a href="">
+            <img src="./assets/images/whatsapp.webp" alt="" />
+          </a>
+          <a href="">
+            <img src="./assets/images/vk.webp" alt="" />
+          </a>
+          <a href="">
+            <img src="./assets/images/telegram.webp" alt="" />
+          </a>
+          <a href="">
+            <img src="./assets/images/mail.webp" alt="" />
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
